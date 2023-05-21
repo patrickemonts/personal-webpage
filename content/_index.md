@@ -35,20 +35,30 @@ sections:
           company_logo: logo-max-planck
           company_url: https://www.mpq.mpg.de/en
           title: PhD in Phyics
-        - date_start: '2015-09-01'
+        - title: Master in Management
+          date_start: '2018-10-01'
+          date_end: '2020-08-01'
+          description: |2
+            Thesis: "Causal Inference in Applied Economics: An Example of Naming Strategies in German Food Processing"
+          company: TU Munich
+          company_logo: logo-tum
+          company_url: https://www.tum.de/en/ 
+        - title: Master in Physics
+          date_start: '2015-09-01'
           date_end: '2017-08-01'
-          description: ""
+          description: |2
+            Thesis: "Monte Carlo Methods for the Quantum Ising Model on Frustrated Lattices"
           company: RWTH Aachen
           company_logo: logo-rwth
           company_url: https://www.rwth-aachen.de/go/id/a/?lidx=1
-          title: Master in Physics
-        - date_start: '2012-10-01'
+        - title: Bachelor in Physics
+          date_start: '2012-10-01'
           date_end: '2015-09-01'
-          description: ""
+          description: |2
+            Thesis: "Lateral Etching of Graphene Heterostructures"
           company: RWTH Aachen
           company_logo: logo-rwth
           company_url: https://www.rwth-aachen.de/go/id/a/?lidx=1
-          title: Bachelor in Physics
     design:
       columns: '2'
   - block: collection

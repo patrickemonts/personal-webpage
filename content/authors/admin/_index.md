@@ -25,6 +25,9 @@ education:
     - course: PhD in Physics
       institution: Max-Planck Institute of Physics, TU Munich
       year: 2022
+    - course: MSc in Management
+      institution: TU Munich
+      year: 2020
     - course: MSc in Physics
       institution: RWTH Aachen University
       year: 2017
