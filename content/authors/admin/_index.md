@@ -1,7 +1,6 @@
 ---
 title: Patrick Emonts
 role: Postdoctoral Researcher
-avatar_filename: patrick_emonts.jpg
 bio: My research interests include tensor networks, lattice gauge theories and
   quantum information.
 interests:
