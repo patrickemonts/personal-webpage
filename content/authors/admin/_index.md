@@ -1,7 +1,7 @@
 ---
 title: Patrick Emonts
 role: Postdoctoral Researcher
-avatar_filename: patrick_emonts_lion_portrait_highres_square.jpg
+avatar_filename: patrick_emonts.jpg
 bio: My research interests include tensor networks, lattice gauge theories and
   quantum information.
 interests:
@@ -35,9 +35,9 @@ education:
 superuser: true
 status:
   icon: ☕️
-last_name: Wu
+last_name: Emonts
 highlight_name: true
-first_name: Alice
+first_name: Patrick
 email: ""
 ---
 Patrick Emonts is a postdoctoral researcher in Jordi Tura's group at the University of Leiden.
