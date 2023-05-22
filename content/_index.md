@@ -48,6 +48,9 @@ sections:
           date_start: '2015-09-01'
           date_end: '2017-08-01'
           description: |2
+            Focus on
+            * quantum Monte Carlo
+            * condensed matter physics, especially spin systems
             Thesis: "Monte Carlo Methods for the Quantum Ising Model on Frustrated Lattices"
           company: RWTH Aachen
           company_logo: logo-rwth
@@ -83,7 +86,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        If you have questions, ideas, etc feel free to contact me.
+        If you have questions or ideas feel free to contact me.
       # Contact (add or remove contact options as necessary)
       email: emonts@lorentz.leidenuniv.nl
 #      phone: 888 888 88 88
