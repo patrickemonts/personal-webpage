@@ -36,7 +36,7 @@ sections:
           company_logo: logo-max-planck
           company_url: https://www.mpq.mpg.de/en
           title: PhD in Phyics
-        - title: Master in Management
+        - title: MSc in Management
           date_start: '2018-10-01'
           date_end: '2020-08-01'
           description: |2
@@ -44,7 +44,7 @@ sections:
           company: TU Munich
           company_logo: logo-tum
           company_url: https://www.tum.de/en/ 
-        - title: Master in Physics
+        - title: MSc in Physics
           date_start: '2015-09-01'
           date_end: '2017-08-01'
           description: |2
@@ -52,7 +52,7 @@ sections:
           company: RWTH Aachen
           company_logo: logo-rwth
           company_url: https://www.rwth-aachen.de/go/id/a/?lidx=1
-        - title: Bachelor in Physics
+        - title: BSc in Physics
           date_start: '2012-10-01'
           date_end: '2015-09-01'
           description: |2
@@ -89,9 +89,9 @@ sections:
 #      phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       address:
-        city: 2312 GA Leiden
+        street: Niels Bohrweg 2
+        city:  NL-2333 CA Leiden
         region: Zuid-Holland
-        # postcode: 2312GA
         country: Netherlands
         country_code: NL
     #   directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
