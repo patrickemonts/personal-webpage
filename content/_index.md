@@ -35,7 +35,7 @@ sections:
           company: Max-Planck Institute of Quantum Optics, TU Munich
           company_logo: logo-max-planck
           company_url: https://www.mpq.mpg.de/en
-          title: PhD in Phyics
+          title: PhD in Physics
         - title: MSc in Management
           date_start: '2018-10-01'
           date_end: '2020-08-01'
