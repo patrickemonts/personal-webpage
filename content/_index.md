@@ -24,7 +24,18 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - date_start: '2017-10-15'
+        - title: Postdoctoral Researcher
+          date_start: '2022-01-07'
+          description: |2
+            Focus on 
+            * Tensor Networks
+            * Quantum Information
+            * Lattice Gauge Theories
+          company: Leiden University, aQa group
+          company_logo: logo-leiden
+          company_url: https://www.universiteitleiden.nl/en/science/physics
+        - title: PhD in Physics
+          date_start: '2017-10-15'
           date_end: '2022-09-23'
           description: |2
             Focus on 
@@ -35,7 +46,6 @@ sections:
           company: Max-Planck Institute of Quantum Optics, TU Munich
           company_logo: logo-max-planck
           company_url: https://www.mpq.mpg.de/en
-          title: PhD in Physics
         - title: MSc in Management
           date_start: '2018-10-01'
           date_end: '2020-08-01'
