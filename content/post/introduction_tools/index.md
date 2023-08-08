@@ -27,11 +27,10 @@ I am a physicist by training and work currently as a postdoc in a research group
 
 Without much further ado, let's have a look at the menu
 - [latexdiff]({{< relref "/post/latexdiff" >}})
+- [autoreload]({{< relref "/post/autoreload" >}})
 - Bibliography Management with Zotero Part I
 - Bibliography Management Part II: Zotero Collaboration
 - Zotero with Obisdian
 - Obsidian
 
-As time goes on, these menu items will turn to links. For now, you 
-
-If you use other tools or have different use cases for the tools presented here, please contact me (TODO: link).
+If you use other tools or have different use cases for the tools presented here, please contact [me]({{< relref "/#contact" >}}).
