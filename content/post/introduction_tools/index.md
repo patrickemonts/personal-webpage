@@ -1,17 +1,20 @@
 ---
 title: Tools for Physicists
+summary: 'The day to day tasks in research are not always glorious. It is not like everyone is discovering something life-changing every week. This series of blog posts presents a couple of tools that might make your life a bit easier.'
 subtitle: 
-summary: Introduction to the section "Tools for Physicists"
 authors:
   - admin
-tags: [tools]
+tags: ['Tools']
 categories: []
 projects: []
-date: '2023-08-03T00:00:00Z'
-lastMod: '2023-08-23T00:00:00Z'
-image:
-  caption: ''
+draft: false
+featured: false
+date: '2023-08-02T00:00:00Z'
+lastMod: '2023-08-02T00:00:00Z'
+image: 
+  caption: 'generated with DALL-E'
   focal_point: ''
+  preview_only: true
 ---  
 
 The day to day tasks in research are not always glorious: reading papers, correcting exams, debugging code and preparing graphics for manuscripts. It is not like everyone is discovering something life-changing every week.

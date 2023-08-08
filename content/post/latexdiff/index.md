@@ -1,20 +1,21 @@
 ---
 title: LaTeXdiff
-subtitle: Comparing LaTeX made easy
-summary: LaTeXdiff helps you to create differences between LaTeX documents
+subtitle: 
+summary: 'Kicking off the tools section of this blog: latexdiff is a convenient tool to show the difference between two LaTeX documents.'
 authors:
   - admin
-tags: [tools]
+tags: ['Tools','LaTeX']
 categories: []
 projects: []
-date: '2023-08-03T00:00:00Z'
-lastMod: '2023-08-23T00:00:00Z'
+draft: false
+featured: false
+share: false
+date: '2023-08-02T00:00:00Z'
+lastMod: '2023-08-02T00:00:00Z'
 image:
   caption: ''
   focal_point: ''
 ---  
-TODO: FIX IMAGES
-
 Paper writing can be nasty business: you write a draft of a paper, your professor gives you comments, you implement them, send it again, just to get back another batch of comments (and repeat).
 This loop of misery and despair can lead to quite a bit of frustration and is not fun for either side. Sometimes, the easy solution is to highlight the changes that were done in the paper such that the corrector can quickly see what changes and how it changes. That saves time for your collaborators and a lot of frustration for you.
 
@@ -38,7 +39,7 @@ Lo and behold, it does: `latexdiff`, your friend and helper. It is a small helpe
 sudo apt install -y latexdiff
 ```
 Similar commands apply for other distributions.
-If you are using windows, there is a version of latexdiff by Miktex, but the installation is not as much fun (https://www.overleaf.com/learn/latex/Articles/Using_Latexdiff_For_Marking_Changes_To_Tex_Documents).
+If you are using windows, there is a version of latexdiff by Miktex, but the installation is not as much fun. See [here](https://www.overleaf.com/learn/latex/Articles/Using_Latexdiff_For_Marking_Changes_To_Tex_Documents), for example.
 
 The function of `latexdiff` is pretty simple and closely related to `diff`. By executing
 ```bash
@@ -50,7 +51,7 @@ latexdiff old.tex new.tex > changes.tex
 ```
 Now, you can just compile `changes.tex` and you will get something like the following result:
 
-![[Pasted image 20230723160013.png]]
+![Example of latexdiff output](latexdiff_output.png)
 
 But can it run... But can it deal with figures and equations? Yes, it can. Freshly added equations will shine in blue, just as the text does.
 
