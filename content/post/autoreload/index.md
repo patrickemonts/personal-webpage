@@ -1,0 +1,45 @@
+---
+title: autoreload
+summary: 'Sometimes it is the small things: autoreload is a very handy Jupyter notebook extension. It automatically reloads modules that changed during the development process.'
+subtitle: Making module development less painful
+authors:
+  - admin
+tags: ['Tools','Python']
+categories: []
+projects: []
+draft: true
+featured: false
+date: '2023-08-02T00:00:00Z'
+lastMod: '2023-08-08T00:00:00Z'
+image:
+  caption: ''
+  focal_point: ''
+---  
+
+Today's blog post will be a bit shorter than usual. The main character of today's post are two lines of Jupyter notebook magic.
+
+## TL;DR
+The `autoreload` extension automatically re-imports a Python module if it changed during the lifetime of the notebook's kernel.
+This is really handy if you are checking the module that you are developing with a notebook.
+
+But let's start at the beginning: what are [Jupyter notebooks](https://jupyter.org/)? It is a bit difficult to get around them nowadays when working with Python, but not everyone comes from a Python background. Jupyter notebooks are a great way to combine code, text and results; especially for pedagogic purposes. They work a bit like a Mathematica notebook (well, they are both called notebooks after all).
+Most of the tutorials in Python package documentations are rendered versions of notebooks. See [here](https://qiskit.org/documentation/tutorials/circuits/01_circuit_basics.html) for example (You can think about qiskit whatever you want. The documentation is quite nice.)
+
+Coming back to our main character, the [autoreload](https://ipython.org/ipython-doc/3/config/extensions/autoreload.html) extension. By adding the following two lines at the very beginning of a Jupyter notebook, all Python modules are reloaded before a Python cell is executed:
+```
+%load_ext autoreload
+%autoreload 2
+```
+
+In general, that does not sound super useful since `numpy` and `scipy` do not change on short notice. If you are developing your own code, however, it makes a huge difference.
+Let's imagine you have one cell that imports your script `foo_file` and you would like to test the function `bar`.
+```
+from foo_file import bar
+```
+After you imported a module, it will not be imported again. Thus, the kernel of your notebook will not execute the import again. Usually that is fine, since your module does not change. You can execute your test
+```
+assert bar(3,9)==18
+```
+and everyone goes home happy.
+
+If you are bug fixing `foo_file` and change the function `bar`, the situation looks a bit different. You will have to restart the kernel of the notebook to import `bar` again. The two lines with `autoreload` solve that problem for you. Now, you can just execute the cell with `bar` again and the most recent code is executed. That saves a lot of kernel restarting, and more importantly, headaches because bugs that are supposedly fixed do not disappear.
