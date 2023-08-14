@@ -42,6 +42,6 @@ highlight_name: true
 first_name: Patrick
 email: ""
 ---
-Patrick Emonts is a postdoctoral researcher in Jordi Tura's group at the University of Leiden.
-His research is focused on numerical algorithms, especially tensor networks, and spans different fields ranging from quantum information to lattice gauge theories.
+I am a postdoctoral researcher in Jordi Tura's group at the University of Leiden.
+My research is focused on numerical algorithms, especially tensor networks, and spans different fields ranging from quantum information to lattice gauge theories.
 {style="text-align: justify;"}
