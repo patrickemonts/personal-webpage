@@ -74,17 +74,22 @@ features:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
+    provider: 'utterances'
+    utterances:
+      repo: 'patrickemonts/personal-webpage'
+      issue_term: 'pathname'
+      label: 'comments 💬'
+      theme: 'github-light'
+    # disqus:
+    #   shortname: ''
+    #   show_count: true
+    # commento:
+    #   url: ''
+    # giscus:
+    #   repo: ''
+    #   repo_id: ''
+    #   category: ''
+    #   category_id: ''
   search:
     provider: wowchemy
     algolia:
@@ -107,7 +112,6 @@ extensions:
     enable: true
 
 # Security
-
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
