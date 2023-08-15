@@ -20,7 +20,7 @@ marketing:
     org_name: ''
     description: 'Personal webpage of Patrick Emonts'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-9502T2RM5H'
     baidu_tongji: ''
   verification:
     google: ''
