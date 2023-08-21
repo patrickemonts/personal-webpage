@@ -28,9 +28,9 @@ I am a physicist by training and work currently as a postdoc in a research group
 Without much further ado, let's have a look at the menu
 - [latexdiff]({{< relref "/post/latexdiff" >}})
 - [autoreload]({{< relref "/post/autoreload" >}})
+- [Bibliography Management Part I: Zotero]({{< relref "post/zotero_basics" >}})
 
 Coming soon:
-- Bibliography Management Part I: Zotero
 - Bibliography Management Part II: Zotero Collaboration
 - Obsidian
 - Zotero with Obisdian
