@@ -9,8 +9,8 @@ categories: []
 projects: []
 draft: false
 featured: false
-date: '2023-08-22T00:00:00Z'
-lastMod: '2023-08-22T00:00:00Z'
+date: '2023-08-29T00:00:00Z'
+lastMod: '2023-08-29T00:00:00Z'
 image: 
   caption: 'generated with DALL-E'
   focal_point: ''
