@@ -28,62 +28,52 @@ If you have ideas for additions or other opinions, please write them in the comm
 
 So let's get started: 
 
-1. Stick to convention throughout the document 
-
+1. **Stick to convention throughout the document**  
 Conventions help to make the LaTeX source code more readable. 
 If you start labeling your figures or equations with a certain convention (see below), stick with the same convention throughout the document. 
 It will make late changes much easier. 
 
-2. One sentence per line in the tex-source 
-
+2. **One sentence per line in the tex-source**  
 Many software development tools (or Linux tools) work on a line-by-line basis. 
 LaTeX does render single return characters in the final PDF, only a free line (two return characters) result in a new paragraph.
 If you stick with the one-sentence-per-line policy in your LaTeX source, you can use all of them. 
 Some examples are Some examples are [meld](https://meldmerge.org/), [diff](https://man7.org/linux/man-pages/man1/diff.1.html) or [vimdiff](https://vimdoc.sourceforge.net/htmldoc/diff.html).
 These tools do comparisons on a line-by-line basis and merging a single sentence is much easier than merging a full paragraph.
 
-3. Use align not eqnarray 
-
-The `eqnarray` environment in LaTeX is deprecated and its typesetting is problematic (for details look [here](https://tug.org/pracjourn/2006-4/madsen/madsen.pdf) and [here](https://texblog.net/latex-archive/maths/eqnarray-align-environment/)). The `equation` environment is fine for single-line equations. If you want a single, simple rule: always use `align` for equations.The eqnarray environment in LaTeX is deprecated and its typesetting is problematic (for details look here and here). 
+3. **Use align not eqnarray**  
+The `eqnarray` environment in LaTeX is deprecated and its typesetting is problematic (for details look [here](https://tug.org/pracjourn/2006-4/madsen/madsen.pdf) and [here](https://texblog.net/latex-archive/maths/eqnarray-align-environment/)). The `equation` environment is fine for single-line equations. If you want a single, simple rule: always use `align` for equations.The eqnarray environment in LaTeX is deprecated and its typesetting is problematic (for details look [here](https://tug.org/pracjourn/2006-4/madsen/madsen.pdf) and [here](https://texblog.net/latex-archive/maths/eqnarray-align-environment/)).
 The equation environment is fine for single-line equations, but does not work for multiple-line equations. 
 If you want a single, simple rule: always use align for equations.
 Within the align environment you can use `\label{eq:label}` for every single line, or use `\nonumber` at the end of a line to avoid equation numbers, for example when you need to break one long equation into two lines. 
 You can align the two lines in the align environment by placing the `&`-symbol (you can use multiple `&`-symbols in one line if it needs to be aligned at multiple places, but note that the align environment has an alternating right/left alignment, meaning that sometimes `&&` may be a better option, see [this post](https://tex.stackexchange.com/questions/159723/what-does-a-double-ampersand-mean-in-latex) for more explanation).     
 
-4. Define commands with reasonable names
-
+4. **Define commands with reasonable names**  
 Often you have to use a certain symbol multiple times in a document and you would like it to mean the same thing. Consider for example the double-script R, $\mathbb{R}$ . You can, of course, write `\mathbb{R}` a lot of times, but wouldn't it be easier to read if you wrote what you meant?
-If you define instead the command `reals`
-```latex
-\newcommand{\reals}{\mathbf{R}}
-```
-you can just use the much more readable command `\reals` in your equations. If you want a math command to work both in text and equations, you can wrap the math command in `\ensuremath{}`. 
-You don't have to do this for full symbols, but you can also just define an addition to a symbol to make equations more readable. Like the adjoint operator, frequently used in quantum mechanics,
-```latex
-\newcommand{\dgr}{^\dagger}
-```
+If you define instead the command `reals` as  ` \newcommand{\reals}{\mathbf{R}}`, you can just use the much more readable command `\reals` in your equations. 
+If you want a math command to work both in text and equations, you can wrap the math command in `\ensuremath{}`. 
+You don't have to do this for full symbols, but you can also just define an addition to a symbol to make equations more readable. 
+Like the adjoint operator, frequently used in quantum mechanics, `\newcommand{\dgr}{^\dagger}`
 
-5. Use the physics package
-
+5. **Use the physics package**  
 The physics package is an excellent collection of useful LaTeX commands. Starting with matrices and vectors, symbols for partial differential equations, all the way to quantum mechanical notation. Here is just a little taster:
-	- `\ket`, `\bra`  are more semantic than `\langle`,`\rangle`.  Do *not* use `<` and  `>` for expectation values! 
-	- `\mqty` for matrices and vectors, using the usual LaTeX table notation
-	If you want to know more, have a look at the [package documentation](https://ctan.org/pkg/physics?lang=en).
 
-6. Use `\eqref`, not (`\ref{some_label}`)
+- `\ket`, `\bra`  are more semantic than `\langle`,`\rangle`.  Do *not* use `<` and  `>` for expectation values! 
+- `\mqty` for matrices and vectors, using the usual LaTeX table notation
 
+If you want to know more, have a look at the [package documentation](https://ctan.org/pkg/physics?lang=en).
+
+6. **Use `\eqref`, not (`\ref{some_label}`)**  
 While `\ref` is creating references to tables and figures, use `\eqref` to reference equations. 
 It will directly add the correct parentheses to the number and it is more readable for your collaborators. 
 They know that you are referencing in equation when they are reading the source.
 
-7. Prefix your labels 
-
+7. **Prefix your labels**  
 Scientific texts contain many references to figures, sections, tables and equations. 
 By prefixing the label of an object with `eq` (equations), `sec` (sections), `fig` (figures) or `tab` (tables). 
 While writing, you will be clear on whether you are referencing the correct type of object. 
 If you want to make references even easier, consider having a look at the [`cleveref` package](https://ctan.org/pkg/cleveref?lang=en) or a post about it [here](https://texblog.org/2013/05/06/cleveref-a-clever-way-to-reference-in-latex/).
 
-8. Curiosities about symbols
+8. **Curiosities about symbols**  
 Some composed symbols are actually available as a single symbol to make sure that the typesetting is correct. 
 Here are a few examples 
 
@@ -93,8 +83,7 @@ Here are a few examples
 - Use `\sin()`  (\arccos(), etc.), not “sin()” (“arccos()”, etc.), the brackets will scale automatically with the argument.
 For a list of all symbols and operators available, see [this wiki-page](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols)
 
-9. Write your units in text-format, not in equation-format. 
-
+9. **Write your units in text-format, not in equation-format**   
 If you are writing equations involving masses $m$ and lengths of unit `m` (meter), using the proper formatting is helpful for distinguishing the two. 
 Generally, the variables are written in equation-style, while units are in text-style. 
 This can get tricky when writing, for example, `kg s /m^2`. 
