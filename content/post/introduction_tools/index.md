@@ -10,7 +10,7 @@ projects: []
 draft: false
 featured: false
 date: '2023-08-02T00:00:00Z'
-lastMod: '2023-08-02T00:00:00Z'
+lastMod: '2023-09-01T00:00:00Z'
 image: 
   caption: 'generated with DALL-E'
   focal_point: ''
@@ -29,10 +29,7 @@ Without much further ado, let's have a look at the menu
 - [latexdiff]({{< relref "/post/latexdiff" >}})
 - [autoreload]({{< relref "/post/autoreload" >}})
 - [Bibliography Management Part I: Zotero]({{< relref "post/zotero_basics" >}})
-
-Coming soon:
-- Bibliography Management Part II: Zotero Collaboration
-- Obsidian
-- Zotero with Obisdian
+- [Unit testing]({{< relref "/post/unit_test" >}})
+- [Best Practices for Latex]({{< relref "/post/latex_best_practice" >}})
 
 If you use other tools or have different use cases for the tools presented here, please contact [me]({{< relref "/#contact" >}}).
