@@ -35,7 +35,7 @@ It will make late changes much easier.
 
 2. **One sentence per line in the tex-source**  
 Many software development tools (or Linux tools) work on a line-by-line basis. 
-LaTeX does render single return characters in the final PDF, only a free line (two return characters) result in a new paragraph.
+LaTeX does *not* render single return characters in the final PDF, only a free line (two return characters) result in a new paragraph.
 If you stick with the one-sentence-per-line policy in your LaTeX source, you can use all of them. 
 Some examples are Some examples are [meld](https://meldmerge.org/), [diff](https://man7.org/linux/man-pages/man1/diff.1.html) or [vimdiff](https://vimdoc.sourceforge.net/htmldoc/diff.html).
 These tools do comparisons on a line-by-line basis and merging a single sentence is much easier than merging a full paragraph.
