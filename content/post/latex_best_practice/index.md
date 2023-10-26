@@ -21,7 +21,7 @@ If you are a physicist, chances are good that you are using LaTeX to write texts
 
 But how do you write good LaTeX? 
 Writing a good paper is one thing, but writing good LaTeX is another story. 
-There are quite a few blog posts on how not to write LaTeX (here for example), but that is not too constructive.
+There are quite a few blog posts on how not to write LaTeX ([here](https://dabacon.org/pontiff/2012/03/12/the-nine-circles-of-latex-hell/?wpmp_switcher=mobile&wpmp_tp=1) for example), but that is not too constructive.
 
 This post will not be a huge explanation on LaTeX internals, but rather a collection of best practices with a motivation. 
 If you have ideas for additions or other opinions, please write them in the comments. 
@@ -70,6 +70,7 @@ They know that you are referencing in equation when they are reading the source.
 7. **Prefix your labels**  
 Scientific texts contain many references to figures, sections, tables and equations. 
 By prefixing the label of an object with `eq` (equations), `sec` (sections), `fig` (figures) or `tab` (tables). 
+A section label for the introduction might look like `\label{sec:introduction}`.
 While writing, you will be clear on whether you are referencing the correct type of object. 
 If you want to make references even easier, consider having a look at the [`cleveref` package](https://ctan.org/pkg/cleveref?lang=en) or a post about it [here](https://texblog.org/2013/05/06/cleveref-a-clever-way-to-reference-in-latex/).
 
