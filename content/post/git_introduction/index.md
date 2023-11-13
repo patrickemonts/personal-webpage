@@ -23,8 +23,8 @@ After all, if you change it and forget what you did, you might not be able to ge
 And what about the other computer that I am working on? Did I copy over the latest changes or is this still running an old version? And which version did I send to a colleague?
 
 If you had these or similar thoughts, stop worrying. `git` is the  solution for your headaches.
-`git` is a so-called version management tool.
-Version maangement tools help software developers to track their progress while programming, establish back-ups and synchronize code between different machines.
+It is a so-called version management tool.
+These tools help software developers to track their progress while programming, establish back-ups and synchronize code between different machines.
 In short, version manamgent tools can help to
 
 1. Back up your code. Version management tools like `git` work with so-called commits.
