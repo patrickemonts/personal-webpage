@@ -25,7 +25,7 @@ And what about the other computer that I am working on? Did I copy over the late
 If you had these or similar thoughts, stop worrying. `git` is the  solution for your headaches.
 It is a so-called version management tool.
 These tools help software developers to track their progress while programming, establish back-ups and synchronize code between different machines.
-In short, version manamgent tools can help to
+In short, version management tools can help to
 
 1. Back up your code. Version management tools like `git` work with so-called commits.
 A commit is a self-contained package of work that implements a function or fixes a bug.
@@ -41,7 +41,7 @@ Thus, powerful merge algorithms are helpful if you want to combine code at a lat
 `git` (and other version management tools) provide precisely that.
 
 3. Share code between different computers. Services like [github](www.github.com) and [gitlab](www.gitlab.com) are based on `git`.
-Using these platforms, you can both, share the code privately between different machines or publish it to make it available to everyon.
+Using these platforms, you can both, share the code privately between different machines or publish it to make it available to everyone.
 
 There are many more advantages to using `git`, but let's get into it.
 
@@ -58,7 +58,7 @@ Here are some important commands:
 
 # Git as a photo album
 
-Learning about all commands in `git` is an endaevour for a lifetime.
+Learning about all commands in `git` is an endeavour for a lifetime.
 In this blog post, we will start with the basics to get you up and running.
 To understand a bit how `git` works, we will think about it in terms of a photo album.
 
@@ -70,7 +70,7 @@ On the one hand, we have new pictures which are not in the album yet.
 Those are changes that you just performed and you are considering to bundle a couple of them into one commit.
 A commit is one page of your photo album.
 Each page get a title which describes the endeavour that you undertook.
-In an acutal album that might be "summer vacation 2023".
+In an actual album that might be "summer vacation 2023".
 In the case of `git`, it is most probably something like "Implementation of foo".
 
 ## The staging area
@@ -94,7 +94,7 @@ Nothing happens to your file.
 
 ## Committing changes
 Once the pictures (changes) are selected, we have to commit them to the repository, i.e. glue them into the photo album.
-With `git commit` all changes in the staging area are bunled into a commit and after entering a commit message, they are recorded in the git repository.
+With `git commit` all changes in the staging area are bundled into a commit and after entering a commit message, they are recorded in the git repository.
 
 ![The commit](git_commit.png)
 
@@ -110,7 +110,7 @@ In case a typo made its way into the last commit message, you can always amend t
 With `git commit --amend` you have the possibility to open up the last commit again to add more files from the staging area or to change the title.
 In terms of the metaphor: you keep working on the same page, instead of opening a new page in the album.
 
-While everyting stays local, i.e. you did not push it to a server, the whole history of the repository can be changed.
+While everything stays local, i.e. you did not push it to a server, the whole history of the repository can be changed.
 How to do that is a bit beyond the scope of this article, but you could have a look at `git rebase -i`, for example.
 After pushing, your commits are public and you cannot change files on somebody else's computer.
 Thus, the commits are fixed.
@@ -126,7 +126,7 @@ Note, she already has the photo album, since she has the git repository already.
 In order to make the transfer of pages, you first have to make sure that you are up-to-date with her changes.
 Thus, start with a `git pull`.
 In case that she modified files that you modified as well, you will have to merge.
-This is completely normal process in `git` and the prompts on the commandline will guide you throught the process.
+This is completely normal process in `git` and the prompts on the command line will guide you through the process.
 
 Once everything is merged, you can `git push` your changes to the remote repository.
 
@@ -154,7 +154,7 @@ git config --global user.name "<NAME>"
 git config --global user.email "<EMAIL>"
 ```
 
-Now, git knows who you are and you are ready to start working with `git`. You can check that `git` got all of it correclty with `git config --list`.
+Now, git knows who you are and you are ready to start working with `git`. You can check that `git` got all of it correctly with `git config --list`.
 
 A git repository is nothing else than a folder with a bit of extra.
 All that extra is stored in the child-folder `.git`.
