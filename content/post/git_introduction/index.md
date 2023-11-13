@@ -196,8 +196,8 @@ If multiple people work on a project that you are joining, checking previous com
 
 ## Acknowledgements
 
-While I don't know whether this explanation in terms of a photo album is typically used in some text book, I learnde about it during the Guest Student Program at the HPC center in Jülich from explanations by Ivo Kabadshow and Andreas Beckmann.
-This article is based on a seminar that I gave togethe with Yash Patel in the aQa group at Leiden University.
+While I don't know whether this explanation in terms of a photo album is typically used in some text book, I learned about it during the Guest Student Program at the HPC center in Jülich from explanations by Ivo Kabadshow and Andreas Beckmann.
+This article is based on a seminar that I gave together with Yash Patel in the aQa group at Leiden University.
 
 ## Commands in this blog post
 
