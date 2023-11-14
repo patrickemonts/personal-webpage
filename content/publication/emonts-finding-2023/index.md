@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: 'Finding the Ground State of a Lattice Gauge Theory with Fermionic Tensor Networks:
-  A $2+1d$ $\mathbb{Z}_2$ Demonstration'
+  A $2+1d$ $Z_2$ Demonstration'
 subtitle: ''
 summary: ''
 authors:
@@ -17,7 +17,7 @@ tags:
 - High Energy Physics - Lattice
 - Quantum Physics
 categories: []
-date: '2023-01-01'
+date: '2023-01-04'
 lastmod: 2023-05-13T00:08:14+02:00
 featured: false
 draft: false
@@ -36,14 +36,14 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-05-12T22:08:14.381665Z'
+publishDate: '2023-11-14T16:56:42.334759Z'
 publication_types:
 - '2'
 abstract: Tensor network states, and in particular Projected Entangled Pair States
   (PEPS) have been a strong ansatz for the variational study of complicated quantum
   many-body systems, thanks to their built-in entanglement entropy area law. In this
   work, we use a special kind of PEPS - Gauged Gaussian Fermionic PEPS (GGFPEPS) to
-  find the ground state of $2+1d$ dimensional pure $ \mathbb{Z}_2$ lattice gauge theories
+  find the ground state of $2+1d$ dimensional pure $Z_2$ lattice gauge theories
   for a wide range of coupling constants. We do so by combining PEPS methods with
   Monte-Carlo computations, allowing for efficient contraction of the PEPS and computation
   of correlation functions. Previously, such numerical computations involved the calculation
@@ -51,9 +51,9 @@ abstract: Tensor network states, and in particular Projected Entangled Pair Stat
   in this work we show how to overcome this problem. This paves the way for applying
   the method we propose and benchmark here to other gauge groups, higher dimensions,
   and models with fermionic matter, in an efficient, sign-problem-free way.
-publication: '*Physical Review D*'
+publication: ''
 doi: 10.1103/PhysRevD.107.014505
 links:
-- name: arXiv
-  url: https://arxiv.org/abs/2211.00023
+- name: URL
+  url: http://arxiv.org/abs/2211.00023
 ---
