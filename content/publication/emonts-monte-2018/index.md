@@ -10,7 +10,7 @@ authors:
 - Stefan Wessel
 tags: []
 categories: []
-date: '2018-11-01'
+date: '2018-11-27'
 lastmod: 2023-05-13T00:08:14+02:00
 featured: false
 draft: false
@@ -29,10 +29,22 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-05-12T22:08:14.654623Z'
+publishDate: '2023-11-14T16:56:42.561287Z'
 publication_types:
 - '2'
-abstract: ''
-publication: '*Physical Review B*'
+abstract: The antiferromagnetic Ising model on the pyrochlore lattice exhibits a quantum
+  phase transition in an applied transverse field from the low-field quantum spin-ice
+  phase to the high-field polarized regime. Recent field-theoretical analysis and
+  series expansion results indicate this to be a discontinuous, first-order transition.
+  Here, we explore this transition using quantum Monte Carlo simulations in order
+  to assess this scenario and study the thermodynamic properties in the vicinity of
+  the quantum phase transition. For this purpose, we also consider several variants
+  of extended cluster-update schemes for the transverse-field Ising antiferromagnet
+  on frustrated lattices and compare their performance to the conventional bond-based
+  algorithm for the transverse-field Ising model on the pyrochlore lattice.
+publication: ''
 doi: 10.1103/PhysRevB.98.174433
+links:
+- name: URL
+  url: https://link.aps.org/doi/10.1103/PhysRevB.98.174433
 ---

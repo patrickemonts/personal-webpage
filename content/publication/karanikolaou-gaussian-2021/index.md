@@ -11,7 +11,7 @@ authors:
 tags:
 - cMPS
 categories: []
-date: '2021-04-01'
+date: '2021-04-19'
 lastmod: 2023-05-13T00:08:15+02:00
 featured: false
 draft: false
@@ -30,10 +30,26 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-05-12T22:08:15.148957Z'
+publishDate: '2023-11-14T16:56:42.891916Z'
 publication_types:
 - '2'
-abstract: ''
-publication: '*Physical Review Research*'
+abstract: Tensor networks states allow one to find the low-energy states of local
+  lattice Hamiltonians through variational optimization. Recently, a construction
+  of such states in the continuum was put forward, providing a first step towards
+  the goal of solving quantum field theories (QFTs) variationally. However, the proposed
+  manifold of continuous tensor network states (CTNSs) is difficult to study in full
+  generality, because the expectation values of local observables cannot be computed
+  analytically. In this paper we study a tractable subclass of CTNSs, the Gaussian
+  CTNSs (GCTNSs), and benchmark them on simple quadratic and quartic bosonic QFT Hamiltonians.
+  We show that GCTNSs provide arbitrarily accurate approximations to the ground states
+  of quadratic Hamiltonians and decent estimates for quartic ones at weak coupling.
+  Since they capture the short distance behavior of the theories we consider exactly,
+  GCTNSs even allow one to renormalize away simple divergences variationally. In the
+  end our study makes it plausible that CTNSs are indeed a good manifold to approximate
+  the low-energy states of QFTs.
+publication: ''
 doi: 10.1103/PhysRevResearch.3.023059
+links:
+- name: URL
+  url: https://link.aps.org/doi/10.1103/PhysRevResearch.3.023059
 ---

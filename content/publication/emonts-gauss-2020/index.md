@@ -9,7 +9,7 @@ authors:
 - Erez Zohar
 tags: []
 categories: []
-date: '2020-01-01'
+date: '2020-01-17'
 lastmod: 2023-05-13T00:08:14+02:00
 featured: false
 draft: false
@@ -28,7 +28,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-05-12T22:08:14.526603Z'
+publishDate: '2023-11-14T16:56:42.451087Z'
 publication_types:
 - '2'
 abstract: 'In these lecture notes, we review some recent works on Hamiltonian lattice
@@ -41,6 +41,9 @@ abstract: 'In these lecture notes, we review some recent works on Hamiltonian la
   and do not allow us to do, in terms of unitarily gauging a pure-matter theory and
   eliminating the matter from a gauge theory, and relate that to the construction
   of PEPS (Projected Entangled Pair States) for lattice gauge theories.'
-publication: '*SciPost Physics Lecture Notes*'
+publication: ''
 doi: 10.21468/SciPostPhysLectNotes.12
+links:
+- name: URL
+  url: https://scipost.org/10.21468/SciPostPhysLectNotes.12
 ---
