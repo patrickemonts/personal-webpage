@@ -180,7 +180,7 @@ You cannot push to a foreign directory if you are not up-to-date. So, always `pu
 
 3. **Think before you `push`**  
 Local history can always be changed and rewritten. As soon as the commits are public, this is not possible anymore.
-It is very to `commit` often and only `push` occasionally.
+It is very common to `commit` often and only `push` occasionally.
 
 4. Commit messages should be crisp, but meaningful  
 Commit messages are the one thing that identify a commit. They help everyone later to find a certain change.
@@ -198,6 +198,7 @@ If multiple people work on a project that you are joining, checking previous com
 
 While I don't know whether this explanation in terms of a photo album is typically used in some text book, I learned about it during the Guest Student Program at the HPC center in Jülich from explanations by Ivo Kabadshow and Andreas Beckmann.
 This article is based on a seminar that I gave together with Yash Patel in the aQa group at Leiden University.
+Thank you also to Ariel Kelman for spotting a mistake in the text.
 
 ## Commands in this blog post
 
