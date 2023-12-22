@@ -29,7 +29,9 @@ Without much further ado, let's have a look at the menu
 - [latexdiff]({{< relref "/post/latexdiff" >}})
 - [autoreload]({{< relref "/post/autoreload" >}})
 - [Bibliography Management Part I: Zotero]({{< relref "post/zotero_basics" >}})
+- [Bibliography Management Part II: Zotero]({{< relref "post/zotero_collaboration" >}})
 - [Unit testing]({{< relref "/post/unit_test" >}})
 - [Best Practices for Latex]({{< relref "/post/latex_best_practice" >}})
+- and more....
 
 If you use other tools or have different use cases for the tools presented here, please contact [me]({{< relref "/#contact" >}}).
