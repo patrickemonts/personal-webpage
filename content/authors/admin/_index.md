@@ -7,6 +7,7 @@ interests:
   - Tensor Networks
   - Quantum Information
   - Lattice Gauge Theories
+  - Science Communication
 social:
   - icon: envelope
     icon_pack: fas
