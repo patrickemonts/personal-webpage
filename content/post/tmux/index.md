@@ -160,6 +160,6 @@ Since `synchronize-panes` is like a flag, you can disable it again with the same
 Happy tmuxing and a happy New Year!
 
 ## Other resources
-- [tmux] (https://github.com/tmux/tmux/wiki)
-- [Crash course] (https://thoughtbot.com/blog/a-tmux-crash-course)
+- [tmux](https://github.com/tmux/tmux/wiki)
+- [Crash course](https://thoughtbot.com/blog/a-tmux-crash-course)
 - [Windows and Panes](https://arcolinux.com/everthing-you-need-to-know-about-tmux-panes/#:~:text=A%20Window%20holds%20one%20or,can%20have%20several%20panes%20open.)
