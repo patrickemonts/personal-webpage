@@ -8,7 +8,7 @@ authors:
 tags: ['Tools','Linux']
 categories: []
 projects: []
-draft: true
+draft: false
 featured: false
 share: false
 date: '2024-01-01T00:00:00Z'
