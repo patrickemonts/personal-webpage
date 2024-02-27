@@ -17,9 +17,9 @@ image:
   focal_point: ''
   preview_only: true
 ---  
-The command line can be a powerful tool for smaller and bigger tasks. If you want to get a taste, have a look (here)({{< relref "post/bash_motivation" >}}).
+The command line can be a powerful tool for smaller and bigger tasks. If you want to get a taste, have a look [here]({{< relref "post/bash_motivation" >}}).
 However, the amount of fun that you have while working with the command line crucially depends on how your command line is set up.
-Personally, I am a big fan of `zsh` and this [repo][https://github.com/ohmyzsh/ohmyzsh/wiki] to customize it.
+Personally, I am a big fan of `zsh` and this [repo](https://github.com/ohmyzsh/ohmyzsh/wiki) to customize it.
 At some point, I might write about my own setup.
 
 On clusters, however, there is not always a choice and the default shell on most Linux distributions is bash anyway.
