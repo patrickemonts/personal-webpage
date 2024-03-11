@@ -102,7 +102,7 @@ Host xmaris
   ProxyJump <username>@styx.lorentz.leidenuniv.nl
 ```
 
-A quick note: You need to substitute \lstinline{<username>} with the your username on the cluster (not your local username on the computer that you are using; the two might coincide).
+A quick note: You need to substitute `<username>` with the your username on the cluster (not your local username on the computer that you are using; the two might coincide).
 
 Now, we can just type `ssh styx` and the `ssh` command will automatically use the correct username and URL to connect to.
 However, this still does not solve the problem of typing the password multiple times.
@@ -168,7 +168,7 @@ In case your computer should get compromised, you don't want that people can imp
 2. Distribute the public key
 Now, we have to tell the server about the public key, i.e. we have to send the pictorial lock to the server.
 The easiest way to do that is the command `ssh-copy-id`.
-In the example of `styx`, this could be `ssh-copy-id ~/.ssh/xmaris-key.pub styx` and then `ssh-copy-id ~/.ssh/xmaris-key.pub xmaris`.
+In the example of `styx`, this could be `ssh-copy-id -i ~/.ssh/xmaris-key.pub styx` and then `ssh-copy-id -i ~/.ssh/xmaris-key.pub xmaris`.
 The suffix *.pub* is important here. You want to distribute your public key *not* the private one.
 Now, the public part of the `xmaris-key` key is stored on both, `styx` and `xmaris`.
 
