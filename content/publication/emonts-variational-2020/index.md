@@ -46,7 +46,7 @@ abstract: Variational minimization of tensor network states enables the explorat
   with a Z3 gauge field in two spatial dimensions. This is a first proof of principle
   to the method, which provides an inherent way to increase the number of variational
   parameters and can be readily extended to systems with physical fermions.
-publication: '*American Physical Society (APS)*'
+publication: 'Physical Review D'
 doi: 10.1103/PhysRevD.102.074501
 links:
 - name: URL

@@ -48,7 +48,7 @@ abstract: Entanglement is the fundamental difference between classical and quant
   with the analytic results. We further demonstrate its potential on the interacting
   sine-Gordon model, studying the scaling of von Neumann entropy in ground states
   and real-time dynamics following quenches of the model.
-publication: ''
+publication: 'Physical Review Research'
 doi: 10.1103/PhysRevResearch.4.033039
 links:
 - name: URL

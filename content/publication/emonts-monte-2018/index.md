@@ -42,7 +42,7 @@ abstract: The antiferromagnetic Ising model on the pyrochlore lattice exhibits a
   of extended cluster-update schemes for the transverse-field Ising antiferromagnet
   on frustrated lattices and compare their performance to the conventional bond-based
   algorithm for the transverse-field Ising model on the pyrochlore lattice.
-publication: ''
+publication: 'Physical Review B'
 doi: 10.1103/PhysRevB.98.174433
 links:
 - name: URL

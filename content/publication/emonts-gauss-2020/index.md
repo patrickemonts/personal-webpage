@@ -41,7 +41,7 @@ abstract: 'In these lecture notes, we review some recent works on Hamiltonian la
   and do not allow us to do, in terms of unitarily gauging a pure-matter theory and
   eliminating the matter from a gauge theory, and relate that to the construction
   of PEPS (Projected Entangled Pair States) for lattice gauge theories.'
-publication: ''
+publication: 'SciPost Lecture Notes'
 doi: 10.21468/SciPostPhysLectNotes.12
 links:
 - name: URL

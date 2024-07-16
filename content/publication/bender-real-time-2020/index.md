@@ -51,7 +51,7 @@ abstract: We introduce a class of variational states to study ground-state prope
   of a strongly confined electric field between two charges after a quench to the
   weak-coupling regime. Up to the points where finite-size effects start to play a
   role, we observe equilibrating behavior.
-publication: ''
+publication: 'Physical Review Research'
 doi: 10.1103/PhysRevResearch.2.043145
 links:
 - name: URL

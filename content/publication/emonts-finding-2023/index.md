@@ -51,7 +51,7 @@ abstract: Tensor network states, and in particular Projected Entangled Pair Stat
   in this work we show how to overcome this problem. This paves the way for applying
   the method we propose and benchmark here to other gauge groups, higher dimensions,
   and models with fermionic matter, in an efficient, sign-problem-free way.
-publication: ''
+publication: 'Physical Review D'
 doi: 10.1103/PhysRevD.107.014505
 links:
 - name: URL

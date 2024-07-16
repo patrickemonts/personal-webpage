@@ -52,7 +52,7 @@ abstract: 'Lattice gauge theories coupled to fermionic matter account for many i
   where the sign problem is absent. Moreover, in limiting cases where the exact ground
   state is known we show that our ansatz is able to capture this behavior. Finally,
   we study a sign-problem affected regime by probing density-induced phase transitions.'
-publication: ''
+publication: 'Physical Review Research'
 doi: 10.1103/PhysRevResearch.5.043128
 links:
 - name: URL

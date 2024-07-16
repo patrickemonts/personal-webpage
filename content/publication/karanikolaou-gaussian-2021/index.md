@@ -47,7 +47,7 @@ abstract: Tensor networks states allow one to find the low-energy states of loca
   GCTNSs even allow one to renormalize away simple divergences variationally. In the
   end our study makes it plausible that CTNSs are indeed a good manifold to approximate
   the low-energy states of QFTs.
-publication: ''
+publication: 'Physical Review Research'
 doi: 10.1103/PhysRevResearch.3.023059
 links:
 - name: URL

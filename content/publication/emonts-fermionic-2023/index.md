@@ -46,7 +46,7 @@ abstract: Fermionic Gaussian Projected Entangled Pair States (PEPS) are fermioni
   with fermionic matter, in 2 + 1-d and 3 + 1-d models. Thus, the constructions presented
   here are crucial for the study of non-trivial lattice gauge theories with fermionic
   tensor network states.
-publication: ''
+publication: 'Physical Review D'
 doi: 10.1103/PhysRevD.108.014514
 links:
 - name: URL
