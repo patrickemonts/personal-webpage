@@ -1,10 +1,6 @@
 ---
 title: 'Luttinger Liquid Tensor Network: Sine versus Tangent Dispersion of Massless
   Dirac Fermions'
-_build:
-  render: never
-  list: never
-  publishResources: false
 date: '2024-07-01'
 publishDate: '2024-07-11T13:07:24.088149Z'
 authors:

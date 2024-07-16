@@ -1,9 +1,5 @@
 ---
 title: Effects of Topological Boundary Conditions on Bell Nonlocality
-_build:
-  render: never
-  list: never
-  publishResources: false
 date: '2024-05-01'
 publishDate: '2024-07-11T13:07:23.349323Z'
 authors:

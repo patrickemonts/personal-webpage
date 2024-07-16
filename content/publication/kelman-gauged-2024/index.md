@@ -1,10 +1,6 @@
 ---
 title: Gauged Gaussian PEPS -- A High Dimensional Tensor Network Formulation for Lattice
   Gauge Theories
-_build:
-  render: never
-  list: never
-  publishResources: false
 date: '2024-04-01'
 publishDate: '2024-07-11T13:07:23.871635Z'
 authors:

@@ -1,9 +1,5 @@
 ---
 title: Probing Many-Body Bell Correlation Depth with Superconducting Qubits
-_build:
-  render: never
-  list: never
-  publishResources: false
 date: '2024-06-01'
 publishDate: '2024-07-11T13:07:23.974870Z'
 authors:
