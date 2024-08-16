@@ -1,6 +1,6 @@
 ---
 title: "Logging --- boring but really useful"
-subtitle: 
+subtitle: ''
 summary: 'Some parts of a program's code are the unsung heroes. Nobody really talks about the logging infrastructure in a program. But when something goes wrong a proper log file might be all you need.'
 authors:
   - admin
