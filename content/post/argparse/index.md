@@ -1,5 +1,5 @@
 ---
-title: "Argparse --- or how to tell your program what you actually want"
+title: "Argparse -- or how to tell your program what you actually want"
 subtitle: 
 summary: 'If you call a function, you provide inputs. But how do you provide inputs to a whole computer program?
 The answer is the command line interface. Here, we explore how to write a simple command line interface in Python.'
