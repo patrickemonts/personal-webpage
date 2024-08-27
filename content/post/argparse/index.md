@@ -30,7 +30,7 @@ Luckily, there is an easier way: we can just pass parameters (aka input) via the
 
 # TL;DR
 Python offers multiple ways to parse command line parameters. 
-The most convenient one is to use the module `argparse`.
+The most convenient one is to use the `argparse` package.
 
 # Don't write it yourself -- use `argparse`
 The most direct way to access command line parameters is the system package `sys`.
