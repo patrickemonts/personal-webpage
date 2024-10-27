@@ -13,8 +13,8 @@ tags:
 - 'FOS: Physical sciences'
 - Quantum Physics (quant-ph)
 categories: []
-date: '2024-01-01'
-lastmod: 2024-10-27T17:43:06+09:00
+date: '2024-09-01'
+lastmod: 2024-10-27T17:48:03+09:00
 featured: false
 draft: false
 
@@ -32,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2024-10-27T08:43:05.101592Z'
+publishDate: '2024-10-27T08:48:03.430664Z'
 publication_types:
 - '0'
 abstract: The preparation of non-trivial states is crucial to the study of quantum
