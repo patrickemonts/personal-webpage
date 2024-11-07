@@ -9,7 +9,7 @@ authors:
 - Kshiti Sneh Rai
 - Patrick Emonts
 - Donato Farina
-- Marcin Płodzie\ŉ
+- Marcin Płodzień
 - Przemyslaw Grzybowski
 - Maciej Lewenstein
 - Jordi Tura
