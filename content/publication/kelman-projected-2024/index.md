@@ -23,7 +23,7 @@ publishDate: '2024-12-29T17:02:47.452038Z'
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
 publication_types:
-- manuscript
+- 0
 
 # Publication name and optional abbreviated publication name.
 publication: '*arXiv*'
@@ -87,5 +87,3 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2412.16951
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
