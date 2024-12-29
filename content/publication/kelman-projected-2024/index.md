@@ -36,7 +36,7 @@ abstract: Lattice gauge theory is an important framework for studying gauge theo
   (or regimes of those systems) are difficult to study using conventional techniques,
   such as action-based Monte Carlo sampling. In this paper, we demonstrate the use
   of gauged Gaussian projected entangled pair states as an ansatz for a lattice gauge
-  theory involving dynamical physical matter. We study a $mathbbZ_2$ gauge theory
+  theory involving dynamical physical matter. We study a $\mathbb{Z}_2$ gauge theory
   on a two dimensional lattice with a single flavor of fermionic matter on each lattice
   site. Our results show agreement with results computed by exactly diagonalizing
   the Hamiltonian, and demonstrate that the approach is computationally feasible for
