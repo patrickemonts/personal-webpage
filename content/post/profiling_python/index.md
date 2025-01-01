@@ -19,7 +19,7 @@ image:
 ---  
 
 Can we make this run faster? A typical question when code is not as fast as one would have hoped.
-Some things are easily fixed, like using `numpy` instead of explicit loops, but how do we start if all the usual wisdom is exhausted?
+Some issues in Python are easily fixed, like using `numpy` instead of explicit loops, but how do we start if all the usual wisdom is exhausted?
 
 The answer is profiling! A profiler is a program that tracks the runtime of different functions and gives us an indication where time is wasted.
 
@@ -46,14 +46,17 @@ The main reason was that this simple check for equality has to be safe for all k
 By just rewriting it without all the checks and safety (we knew what we were putting in), we gained a significant factor from the execution time.
 
 If one function takes 80% of the runtime, then it would certainly good to start optimizing that function.
-Profiling helps us to find that function.
+An example is the red function in the illustration below.
+It takes the biggest chunk of time. 
+Cutting its runtime by half makes a much bigger impact than cutting the runtime of the blue function.
+Profiling helps us to find the red function in our code.
 
 ![Parallelization](parallelization_blog.png)
 
 # The magic lines
 So, how do we get the timing information that we are after?
 The answer is a profiler. 
-In this post, we weill ues the [`line_profiler` package](https://github.com/pyutils/line_profiler).
+In this post, we use the [`line_profiler` package](https://github.com/pyutils/line_profiler).
 
 From a very practical perspective, you can just add the following line on top of your Python file:
 
