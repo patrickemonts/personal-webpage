@@ -41,7 +41,7 @@ import numpy as np
 # This file (foo.py) just contains two arbitrary functions to be tested in test.py
 
 def add_4(a):
-    """Add four to the inpu
+    """Add four to the input
 
     Args:
         a (numeric): Input number
