@@ -24,8 +24,19 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: CZS Junior Research Group Leader
+          date_start: '2025-04-01' 
+          description: |2
+            Focus on 
+            * Tensor Networks
+            * Quantum Information
+            * Lattice Gauge Theories
+          company: Ulm University, Institute for Complex Quantum Systems
+          company_logo: logo-ulm
+          company_url: https://www.uni-ulm.de/en/nawi/institute-for-complex-quantum-systems/welcome/
         - title: Postdoctoral Researcher
-          date_start: '2022-01-07'
+          date_start: '2022-01-07' 
+          end_date: '2025-03-31' 
           description: |2
             Focus on 
             * Tensor Networks
@@ -127,15 +138,14 @@ sections:
       text: |-
         If you have questions or ideas feel free to contact me.
       # Contact (add or remove contact options as necessary)
-      email: emonts@lorentz.leidenuniv.nl
+      email: patrick.emonts@uni-ulm.de
 #      phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       address:
-        street: Niels Bohrweg 2
-        city:  NL-2333 CA Leiden
-        region: Zuid-Holland
-        country: Netherlands
-        country_code: NL
+        street: Albert-Einstein-Allee 11
+        city:  89069 Ulm
+        country: Germany
+        country_code: DE
     #   directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
     # office_hours:
     #   - 'Monday 10:00 to 13:00'

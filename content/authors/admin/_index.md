@@ -1,6 +1,6 @@
 ---
 title: Patrick Emonts
-role: Postdoctoral Researcher
+role: Junior Research Group Leader
 bio: My research interests include tensor networks, lattice gauge theories and
   quantum information.
 interests:
@@ -43,6 +43,9 @@ highlight_name: true
 first_name: Patrick
 email: ""
 ---
-I am a postdoctoral researcher in Jordi Tura's group at the University of Leiden.
+I am a Junior Research Group Leader at the Institute for Complex Quantum Systems at Ulm University.
+My group is focuses on combining quantum information with many-body quantum physics.
 My research is focused on numerical algorithms, especially tensor networks, and spans different fields ranging from quantum information to lattice gauge theories.
+
+Additionally, I am a guest researcher in Leiden University, collaborating closely with the group for applied quantum algorithms (aQa).
 {style="text-align: justify;"}
