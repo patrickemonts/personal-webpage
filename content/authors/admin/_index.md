@@ -19,8 +19,8 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/in/patrick-emonts-9500a61a1/
 organizations:
-  - name: Leiden University
-    url: https://www.universiteitleiden.nl/en
+  - name: Ulm University
+    url: https://www.uni-ulm.de/en/
 education:
   courses:
     - course: PhD in Physics
@@ -44,7 +44,7 @@ first_name: Patrick
 email: ""
 ---
 I am a Junior Research Group Leader at the Institute for Complex Quantum Systems at Ulm University.
-My group is focuses on combining quantum information with many-body quantum physics.
+My group focuses on combining quantum information with many-body quantum physics.
 My research is focused on numerical algorithms, especially tensor networks, and spans different fields ranging from quantum information to lattice gauge theories.
 
 Additionally, I am a guest researcher in Leiden University, collaborating closely with the group for applied quantum algorithms (aQa).
