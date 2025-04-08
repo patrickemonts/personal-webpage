@@ -27,7 +27,7 @@ sections:
         - title: CZS Junior Research Group Leader
           date_start: '2025-04-01' 
           description: |2
-            The group focuses on the intersetion of quantum information and quantum many-body physics.
+            The group focuses on the intersection of quantum information and quantum many-body physics.
             We are actively applying methods like tensor networks and semi-definite programming to problems ranging from lattice gauge theories to topological data analysis.
           company: Ulm University, Institute for Complex Quantum Systems
           company_logo: logo-ulm
