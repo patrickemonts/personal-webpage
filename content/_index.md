@@ -34,7 +34,7 @@ sections:
           company_url: https://www.uni-ulm.de/en/nawi/institute-for-complex-quantum-systems/welcome/
         - title: Postdoctoral Researcher
           date_start: '2022-01-07' 
-          end_date: '2025-03-31' 
+          date_end: '2025-03-31' 
           description: |2
             Focus on 
             * Tensor Networks
