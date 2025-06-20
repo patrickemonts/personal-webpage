@@ -27,7 +27,7 @@ publishDate: '2025-06-20T07:25:34.848317Z'
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
 publication_types:
-- article-journal
+- '2'
 
 # Publication name and optional abbreviated publication name.
 publication: '*Physical Review Research*'
@@ -92,4 +92,3 @@ links:
   url: https://arxiv.org/abs/2407.06713
 ---
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

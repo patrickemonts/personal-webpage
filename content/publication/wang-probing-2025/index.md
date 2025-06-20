@@ -55,7 +55,7 @@ publishDate: '2025-06-20T07:22:55.140279Z'
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
 publication_types:
-- article-journal
+- '2'
 
 # Publication name and optional abbreviated publication name.
 publication: '*Physical Review X*'
@@ -125,4 +125,3 @@ image:
 projects: []
 ---
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
