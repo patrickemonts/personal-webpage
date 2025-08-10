@@ -50,7 +50,7 @@ abstract: "Quantum repeaters play a crucial role in the effective distribution o
   interpreted. Additionally, we introduce and evaluate a fixed local policy, the `predictive
   swap-asap' policy, where nodes only coordinate with nearest neighbours. Compared
   to the straightforward generalisation of the common swap-asap policy to the scenario
-  with classical communication effects, the `wait-for-broadcast swap-asap' policy,
+  with classical communication effects, the 'wait-for-broadcast swap-asap' policy,
   both of the aforementioned entanglement-delivery policies are faster at high success
   probabilities. Our work showcases the merit of considering policies acting with
   incomplete information in the realistic case when classical communication effects
