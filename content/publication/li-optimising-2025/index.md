@@ -18,21 +18,21 @@ authors:
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: '2024-12-01'
+date: '2025-08-01'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2024-12-29T17:02:47.457934Z'
+publishDate: '2025-08-10T06:13:35.245507Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
 publication_types:
-- 0
+- '2'
 
 # Publication name and optional abbreviated publication name.
-publication: '*arXiv*'
+publication: '*Machine Learning: Science and Technology*'
 publication_short: ''
 
-doi: 10.48550/arXiv.2412.06938
+doi: 10.1088/2632-2153/adeefa
 
 abstract: "Quantum repeaters play a crucial role in the effective distribution of
   entanglement over long distances. The nearest-future type of quantum repeater requires
@@ -47,10 +47,10 @@ abstract: "Quantum repeaters play a crucial role in the effective distribution o
   our problem as a Markov decision problem and use reinforcement learning (RL) to
   optimise over centralised strategies, where one designated node instructs other
   nodes which actions to perform. Contrary to most RL models, ours can be readily
-  interpreted. Additionally, we introduce and evaluate a fixed local policy, the 'predictive
+  interpreted. Additionally, we introduce and evaluate a fixed local policy, the `predictive
   swap-asap' policy, where nodes only coordinate with nearest neighbours. Compared
-  to the straightforward generalization of the common swap-asap policy to the scenario
-  with classical communication effects, the 'wait-for-broadcast swap-asap' policy,
+  to the straightforward generalisation of the common swap-asap policy to the scenario
+  with classical communication effects, the `wait-for-broadcast swap-asap' policy,
   both of the aforementioned entanglement-delivery policies are faster at high success
   probabilities. Our work showcases the merit of considering policies acting with
   incomplete information in the realistic case when classical communication effects
@@ -59,8 +59,7 @@ abstract: "Quantum repeaters play a crucial role in the effective distribution o
 # Summary. An optional shortened abstract.
 summary: ''
 
-tags:
-- Quantum Physics
+tags: []
 
 # Display this page in a list of Featured pages?
 featured: false
@@ -93,7 +92,5 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: arXiv
-  url: https://arxiv.org/abs/2412.06938
 ---
+
