@@ -27,9 +27,14 @@ publication_types:
 publication: '*Springer-Verlag Berlin*'
 publication_short: ''
 
-doi: ''
+doi: '10.1007/978-3-662-70066-2'
 
-abstract: ''
+abstract: '
+Was sind Quantencomputer und was verspricht man sich von ihnen? Welche anderen Quantentechnologien stehen in den Startlöchern und wie können diese unsere Welt verändern?
+In diesem Sachbuch gehen Johannes Knörzer und Patrick Emonts diesen und vielen weiteren Fragen nach. Nach einem allgemein verständlichen Überblick über die Grundlagen der Quantenphysik stellen sie anschaulich die vier Kernbereiche moderner Quantentechnologien vor: Quantencomputing, Quantensimulation, Quantenkommunikation und Quantenmetrologie. Erfahren Sie, warum diese Technologien so bahnbrechend sind und welche Herausforderungen sie bergen. Ein verständlicher und inspirierender Leitfaden für alle, die die Geheimnisse der Quantenwelt entdecken wollen.
+
+Mit einem Vorwort von Susanne Yelin, Professorin an der Harvard University.
+'
 
 # Summary. An optional shortened abstract.
 summary: ''
