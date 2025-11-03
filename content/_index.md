@@ -11,6 +11,12 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+  - block:
+    id: research
+    content: |2
+      My research group at Ulm University is focued on simulating and understanding quantum technologies and many-body physics.
+      We develop new methods, based on tensor networks and semi-definite programming to certify quantum devices and explore complex physical systems.
+      If you are curious, click [here](/research) to learn more.
   - block: experience
     id: education
     content:
