@@ -14,7 +14,8 @@ header:
 
 # Research
 
-With quantum computers hosting more and more qubits, we have to think about quantum information in the many-body regime. This is exactly what I am doing in my group "Computational Quantum Information and Many-Body Physics".  Using modern methods from the intersection of quantum information and quantum many-body physics like tensor networks, variational Monte Carlo and semi-definite programs, we help to shape the future of quantum technologies.
+With quantum computers hosting more and more qubits, we have to think about quantum information in the many-body regime. This is exactly what I am doing in my group "Computational Quantum Information and Many-Body Physics".  
+Using modern methods from the intersection of quantum information and quantum many-body physics like tensor networks, variational Monte Carlo and semi-definite programs, we help to shape the future of quantum technologies.
 
 ## Topological Data Analysis
 Topological Data Analysis (TDA) is a rapidly growing field that applies concepts from topology — the mathematical study of shape and space — to uncover the underlying structure in complex datasets. By focusing on features like connected components, loops, and voids, TDA provides robust, multi-scale insights that are often resilient to noise and deformations in data.
