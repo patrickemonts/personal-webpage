@@ -12,6 +12,9 @@ header:
   image: ''
 ---
 
+# Join our team
+we have open (positions)[/positions] for PhD students and a research assistant.
+
 With quantum computers hosting more and more qubits, we have to think about quantum information in the many-body regime. 
 This is exactly what we are doing in the "Computational Quantum Information and Many-Body Physics" group.  
 Using modern methods from the intersection of quantum information and quantum many-body physics like tensor networks, variational Monte Carlo and semi-definite programs, we help to shape the future of quantum technologies.
