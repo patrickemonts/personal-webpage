@@ -44,8 +44,10 @@ first_name: Patrick
 email: ""
 ---
 I am a Junior Research Group Leader at the Institute for Complex Quantum Systems at Ulm University.
-My group focuses on combining quantum information with many-body quantum physics.
-My research is focused on numerical algorithms, especially tensor networks, and spans different fields ranging from quantum information to lattice gauge theories.
+In the research group, we combine ideas from quantum information and many-body quantum physics.
+The research is focused on numerical algorithms, especially tensor networks, and spans different fields ranging from quantum information to lattice gauge theories.
 
 Additionally, I am a guest researcher in Leiden University, collaborating closely with the group for applied quantum algorithms (aQa).
 {style="text-align: justify;"}
+
+If you are interested in *joining the group*, have a look [here](/positions).
