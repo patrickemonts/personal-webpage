@@ -46,7 +46,7 @@ In the Hamiltonian formulation of LGTs, the focus shifts from path integrals to 
 ### Selected Publications
 1. A. Kelman, U. Borla, I. Gomelski, J. Elyovich, G. Roose, P. Emonts, and E. Zohar, Gauged Gaussian projected entangled pair states: A high dimensional tensor network formulation for lattice gauge theories, Phys. Rev. D 110, 054511 (2024).
 2. A. Kelman, U. Borla, P. Emonts, and E. Zohar, Projected Entangled Pair States for Lattice Gauge Theories with Dynamical Fermions, arXiv:2412.16951.
-3. P. Emonts, M. C. Bañuls, I. Cirac, and E. Zohar, Variational Monte Carlo simulation with tensor networks of a pure $\mathbb{Z}_3$ gauge theory in $( 2 + 1 )$ D, Phys. Rev. D 10*, 074501 (2020).
+3. P. Emonts, M. C. Bañuls, I. Cirac, and E. Zohar, Variational Monte Carlo simulation with tensor networks of a pure $\mathbb{Z}_3$ gauge theory in $( 2 + 1 )$ D, Phys. Rev. D 10, 074501 (2020).
 
 ## Quantum Networks
 Quantum networks are engineered systems for distributing and processing quantum information across distant nodes, enabling possibilities such as quantum communication, distributed quantum computing, and secure information transfer. 
