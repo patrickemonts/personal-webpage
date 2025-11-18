@@ -1,10 +1,5 @@
 ---
 title: Open Positions
-subtitle: 
-authors:
-  - admin
-categories: []
-projects: []
 draft: false
 featured: false
 share: false
@@ -31,5 +26,5 @@ Additionally, there is the opportunity to participate in projects related to qua
 
 To get an impression of previous projects, check out the [Quantum Guide](https://quantum-guide.info).
 
-Details (de): [PDF](position_hiwi_de.pdf)
+Details (de): [PDF](position_hiwi_de.pdf)  
 Details (en): [PDF](position_hiwi_en.pdf)
