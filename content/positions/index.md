@@ -4,8 +4,19 @@ draft: false
 featured: false
 share: false
 date: '2025-11-18T00:00:00Z'
-lastMod: '2025-11-18T00:00:00Z'
+lastMod: '2025-12-01T00:00:00Z'
 ---  
+
+# Postdoc Position
+
+We invite applications for a postdoctoral position in the field of quantum many-body physics and quantum information at the Institute for Complex Quantum Systems, Ulm University. 
+
+The research project of the postdoc will be in close collaboration with the Gärttner group in Jean and the group by Florian Meinert and Tilman Pfau in Stuttgart.
+One of the focus aspects of the project is the development of new state preparation algorithms for quantum devices.
+If you are curious about further research directions that we pursue in our group, you can find more detailed information [here](/research).
+
+Details (en): [PDF](position_postdoc.pdf)  
+Application deadline: 31st of December 2025
 
 
 # PhD Position
@@ -18,6 +29,7 @@ The topic of your PhD will lie at the exciting interface of *theoretical physics
 If you are curious about the research directions that we pursue in our group, you can find more detailed information [here](/research).
 
 Details (en): [PDF](position_phd.pdf)
+Application deadline: 1st of December 2025
 
 # Research Assistant 
 
