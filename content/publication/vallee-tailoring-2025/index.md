@@ -34,7 +34,7 @@ doi: 10.48550/arXiv.2512.00146
 
 abstract: Bell nonlocality provides a robust scalable route to the efficient certification
   of quantum states. Here, we introduce a general framework for constructing Bell
-  inequalities tailored to the $\mathbb{Z}_3$ toric code
+  inequalities tailored to the $\mathbb{Z}_d$ toric code
   for odd prime local dimensions. Selecting a suitable subset of stabilizer operators
   and mapping them to generalized measurement observables, we compute multipartite
   Bell expressions whose quantum maxima admit a sum-of-squares decomposition. We show
