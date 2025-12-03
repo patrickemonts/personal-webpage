@@ -34,12 +34,12 @@ doi: 10.48550/arXiv.2512.00146
 
 abstract: Bell nonlocality provides a robust scalable route to the efficient certification
   of quantum states. Here, we introduce a general framework for constructing Bell
-  inequalities tailored to the $ mathbbtextbraceleft Ztextbraceright_d$ toric code
+  inequalities tailored to the $\mathbb{Z}_3$ toric code
   for odd prime local dimensions. Selecting a suitable subset of stabilizer operators
   and mapping them to generalized measurement observables, we compute multipartite
   Bell expressions whose quantum maxima admit a sum-of-squares decomposition. We show
   that these inequalities are maximally violated by all states in the ground-state
-  manifold of the $ mathbbtextbraceleft Ztextbraceright_d$ toric code, and determine
+  manifold of the $\mathbb{Z}_d$ toric code, and determine
   their classical (local) bounds through a combination of combinatorial tiling arguments
   and explicit optimization. As a concrete application, we analyze the case of $d=3$
   and demonstrate that the maximal violation self-tests the full qutrit toric-code
